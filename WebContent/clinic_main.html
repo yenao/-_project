@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>동물병원찾기</title>
+<style type="text/css">
+		ul{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		overflow:hidden;
+		background-color: #999999;
+	}
+	
+	/* 한 줄로 만들기(왼쪽 붙이기) */
+	li{float: left;}
+	
+	/* li 태그 안에 존재하는 a태그 */
+	/* 	display: block */
+	li > a{
+		display: block;
+		color: white;
+		padding: 16px 100px;
+		text-decoration: none;
+	}
+	h2 > a {text-decoration: none;}
+	h2 > a:hover{text-decoration: none;}
+	h2 > a:link { text-decoration:none;}
+	h2 > a:visited { text-decoration:none;}
+	h2 > a:active {text-decoration:none; color: black; }
+
+	li > a:hover{
+		background-color: MediumAquamarine;
+		font-size: 150%;
+		color: highlight;
+		display: block;
+	}
+	ul {
+		list-style: none;
+		text-align: center;
+	}
+	h2{vertical-align: middle; color: MediumAquamarine;}
+	table{vertical-align: middle;}
+</style>
+</head>
+<body>
+	<h2 align="center" ><a href="clinic_main.html">동물병원 찾기</a></h2>
+	<ul>
+		<li><a href="#">병원찾기</a></li>
+		<li><a href="ex01.html">지도로 찾기</a></li>
+		<li><a href="ex02.html">내 업체 등록하기</a></li>
+	</ul>
+</body>
+</html>
